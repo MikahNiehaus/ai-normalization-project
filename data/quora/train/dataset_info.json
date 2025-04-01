@@ -1,0 +1,51 @@
+{
+  "builder_name": "quora",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "quora",
+  "dataset_size": 58155130,
+  "description": "The Quora dataset is composed of question pairs, and the task is to determine if the questions are paraphrases of each other (have the same meaning).",
+  "download_checksums": {
+    "http://qim.fs.quoracdn.net/quora_duplicate_questions.tsv": {
+      "num_bytes": 58176133,
+      "checksum": null
+    }
+  },
+  "download_size": 58176133,
+  "features": {
+    "questions": {
+      "feature": {
+        "id": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "text": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "Sequence"
+    },
+    "is_duplicate": {
+      "dtype": "bool",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://www.quora.com/q/quoradata/First-Quora-Dataset-Release-Question-Pairs",
+  "license": "",
+  "size_in_bytes": 116331263,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 58155130,
+      "num_examples": 404290,
+      "dataset_name": "quora"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

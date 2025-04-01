@@ -1,0 +1,10 @@
+numpy
+pandas
+transformers
+datasets
+torch  # Let the user install the correct version manually
+torchvision
+torchaudio
+sentence-transformers
+accelerate>=0.26.0
+scikit-learn  # Required for evaluation metrics in sentence-transformers
